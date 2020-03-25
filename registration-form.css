@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 198, 253);
+}
+
+
+.registration-form {
+    font-family: 'Product Sans';
+    margin: 5px 15px;
+    max-width: 640px;
+}
+
+.registration-form > .input-field,
+.registration-form > .form-intro {
+    border: 1.2px solid rgb(199, 199, 199);
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.top-bar {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(136, 22, 212);
+    border-radius: 6px 6px 0px 0px;
+}
+
+.registration-form > div > p {
+    margin: 20px 25px;
+}
+
+.note, 
+.description, 
+.input-field input, 
+.progress .page-level {
+    font-family: 'Roboto';
+    font-size: 11pt;
+    color: #313131;
+}
+
+.input-field {
+    padding: 5px 0px;
+}
+
+.input-field > div {
+    margin: 30px 25px 20px 25px;
+}
+
+.input-label {
+    font-size: 13pt;
+}
+
+.required .input-label:after {
+    content: " *";
+    color: red;
+}
+
+.input-field input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1.2px solid rgb(216, 216, 216);
+    padding-bottom: 5px;
+}
+
+.input-field input:focus {
+    transition: .37s border ease-in-out;
+    border-bottom-color: rgb(136, 22, 212);
+}
+.input-field input:focus::placeholder {
+    opacity: .4;
+}
+
+.progress {
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+    margin: 7px 0px;
+}
+
+.progress .progress-bar {
+    width: 47%; 
+    height: 7px; 
+    border-radius: 5px; 
+    background-color: rgb(12, 151, 12); 
+}
+
+.progress .page-level {
+    width: 23%; 
+    margin: 0px 2%;
+    color: #000;
+    font-size: 10pt
+}
+
+.progress input {
+    width: 28%; 
+    margin: 0;
+    border: none;
+    padding: 8px 0px;
+    border-radius: 4px;
+    background-color: rgb(6, 47, 228);
+    color: #fff;
+    font-size: 11pt;
+    font-family: 'Product Sans';
+}
